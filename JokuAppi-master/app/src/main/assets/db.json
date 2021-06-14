@@ -1,0 +1,78 @@
+{
+	"diat1":
+	[
+		{
+			"title":"1 Vaihe eli avautumisvaihe ",
+			"body":"• Synnyttäjä kokee voimakasta ponnistamisen tarvetta, kun kohdunsuu on täysin avautunut ja sikiön pää on laskeutunut synnytyskanavan alaosaan\n• Supistuksia tulee 1–2 minuutin välein ja ne kestävät yleensä minuutin ajan\n• Yleensä lapsen pää eli tarjoutuva osa painaa välilihaa, ja emättimen ulkosuu pullottaa ja alkaa avautua, jolloin lapsen pää saattaa näkyä\n• Kun synnytys on edennyt tähän vaiheeseen, niin sitä ei voi enää estää millään tavoin\n• Muista toimia rauhallisesti!",
+			"id":1,
+			"tag": "diat1"
+		},
+
+		{
+			"id":2,
+			"title":"2 Vaihe eli ponnistusvaihe",
+			"body":"• Välilihan repeäminen estetään tukemalla sitä toisen kämmenellä, peukalo ja etusormi kurovat välilihaan joustoa",
+			"tag": "diat1"
+		}
+	],
+	"diat2":
+	[   {
+		"id":1,
+		"title":"kevyttapainooooo",
+		"body":"ronnie",
+		"tag": "diat2"
+	},
+		{
+			"title":"title",
+			"body":"body",
+			"tag": "diat2"
+		},
+		{
+			"title":"title",
+			"body":"body",
+			"tag": "diat2"
+		}
+	],
+	"dialogs": [
+
+		{
+			"title": "Lorem ipsum",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+			"id": 1,
+			"tag": "first"
+		},
+		{
+			"title": "Lorem ipsum",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+			"id": 2,
+			"tag": "second"
+		},
+		{
+			"title": "Lorem ipsum",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+			"id": 3,
+			"tag": "third"
+		}
+
+	],
+	"infopage": [
+
+		{
+			"title": "Lorem ipsum",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+			"id": 1,
+			"tag": "info"
+		}
+
+	],
+	"feedback": [
+
+		{
+			"title": "Lorem ipsum",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+			"id": 1,
+			"tag": "feedback"
+		}
+
+	]
+}

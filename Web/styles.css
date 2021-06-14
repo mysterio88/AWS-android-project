@@ -1,0 +1,260 @@
+/*.cards {
+    background: black;
+     
+}
+.cards img{
+    height: 250px;
+    width: 250px;
+}
+*/
+
+
+/* TESTITESTI */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+p {
+    color: white;
+}
+h1{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ee6c4d;
+    border-radius: 0 0 20px 0;
+    width: 25%;
+    height: 80%;
+    font-size: 6rem;
+    color: #293241;
+}
+h2 {
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ee6c4d;
+    border-radius: 0 0 20px 0;
+    width: 25%;
+    height: 80%;
+    font-size: 6rem;
+    color: #293241;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1b263b;
+}
+
+#titleMessage{
+    align-self: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#mainTitle{
+    align-self: center;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#btnShow{
+    align-self: center;
+    justify-self: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#albumTitle{
+    align-self: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+form {
+    max-width: 500px;
+}
+
+
+textarea {
+    display: block;
+    margin: 16px 0;
+    padding: 6px 10px;
+    width: 100%;
+    border: 1px solid rgba(221, 221, 221, 0);
+}
+
+/* post list */
+/* .post -> #app  */
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.allCards {
+    background-color: #d9ff0000;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+.cardTitle {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #3d5a80;
+}
+
+/*pokekuva*/
+.cardPic {
+    background-size: cover;
+    object-fit: none;
+    min-height: inherit;
+    width: 100%;
+}
+.cardPic img {
+    max-height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.cardBody {
+    padding: 20px 20px;
+    background-color: #293241;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadPhotoDiv {
+    background-color: #293241;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: #2e2e2e;
+    font-size: 1.5rem;
+    border-color: rgba(0, 255, 255, 0);
+    background-color: #ee6c4d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.37);
+}
+
+
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.8);
+}
+.cards:focus {
+    transform: scale(1.3);
+}
+
+.cards {
+    transition: 0.3s;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Responsive Media Queries */
+
+@media screen and (min-width: 768px) {
+    .allCards {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .allCards {
+        width: 60%;
+    }
+}
+
+textarea {
+    background-color: #f287ac00;
+    color: #ee6c4d;
+    font-size: 2rem;
+}
+
+input {
+    align-content: center;
+    justify-content: center;
+    color: #ee6c4d;
+    font-size: 1rem;
+    border-color: rgba(0, 255, 255, 0);
+    background-color: #2e2e2e00;
+    margin-top: 20px;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+input[type=file]::file-selector-button {
+    color: #2e2e2e;
+    font-size: 1rem;
+    border-color: #ee6c4d;
+    background-color: #ee6c4d;
+    margin-top: 20px;
+    padding: 10px 5px;
+    border-radius: 15px;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    transform: scale(2);
+    background-color: #ee6c4d;
+    border: 2px solid #ee6c4d;
+  }
+
+  span{
+    color: #ee6c4d;
+  }
+
+  .deletePhotoX {
+      position: inherit;
+      
+      top: 60px;
+      left: 20px;
+      font-size: 2rem;
+  }
+  .deletePhotoX:hover{
+      transform: scale(1.3);
+  }
+
+  .albumListItem{
+      font-size: 1.2rem;
+      text-decoration: none;
+  }
+
+  li{
+      font-size: 1.2rem;
+      text-decoration: none;
+  }
+  a {
+      text-decoration: none;
+  }
+
+  ul{
+    font-size: 1.2rem;
+    text-decoration: none;
+    }
+
+
+

@@ -4,3 +4,7 @@ Basically, the application is a "blank board" that the user can fill with the co
 Technologies used:
 
 Android Studio, Java, AWS S3, AWS Cognito, CloudFront, IAM
+
+![](Images/Main.png)
+
+![](Images/Updating%20content.png)

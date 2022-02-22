@@ -3,7 +3,7 @@ Basically, the application is a "blank board" that the user can fill with the co
 
 Technologies used:
 
-Android Studio, Java, AWS S3, AWS Cognito, CloudFront, IAM
+Android Studio, Java, Javascript,  AWS S3, AWS Cognito, CloudFront, IAM
 
 ![](Images/Main.png)
 
